@@ -11,7 +11,7 @@ function generatePassword($length = 10) {
 
 // Function to write the admin credentials to the CSV file
 function writeAdminCredentialsToFile($username, $password, $file) {
-    $line = $username . ',' . $password . "\n";
+    $line = $username . ',' . $password . "\n"."fdasfka";
     fwrite($file, $line);
 }
 
