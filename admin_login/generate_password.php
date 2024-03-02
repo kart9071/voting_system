@@ -35,7 +35,7 @@ function sendEmail($to, $subject, $message) {
         // SMTP settings
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
+        $mail->SMTPAuth = false;
         $mail->Username = 'karthikshetty200313@gmail.com'; // Your Gmail address
         $mail->Password = 'Hello@887'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
